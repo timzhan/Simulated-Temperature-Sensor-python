@@ -109,7 +109,7 @@ In VS Code, click `deployment.template.json`, and make below modifications:
   - "createOptions": `"{\"HostConfig\":{\"Privileged\": true}}"`
 - Remove 2nd line in `$edgeHub -> routes`. 
 
-## Step 3: Docker build and push
+## Step 4: Docker build and push
 
 Right-click on `deployment.template.json` -> Select `Build and push to IoT Edge Solution`. You will see below logs.
 
@@ -117,14 +117,14 @@ Right-click on `deployment.template.json` -> Select `Build and push to IoT Edge 
 
 Here you may build for multiple platforms: AMD64, arm32v7, arm64v8.
 
-## Step 4: Deploy to a single device
+## Step 5: Deploy to a single device
 
 Once docker build is completed, you will see a deployment manifest created under folder `./config.` 
 
 Right click on `deployment.arm32v7.json` and select `Create Deployment for a Single Device` -> Select the target device: `RPi4-01`.
 
 
-## View the result
+## Step 6: View the result
 
 Go to your RPi4, list the edge.
 ```
