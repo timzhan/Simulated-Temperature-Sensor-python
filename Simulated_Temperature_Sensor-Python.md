@@ -18,10 +18,19 @@
 
 - IoT Edge Connection String: `HostName=iothub-0707.azure-devices.net;DeviceId=RPi4-01;SharedAccessKey=INh****************************nxo=`
 
+- Container Registry:
+  - Registry name: `cr0713`
+  - Login server: `cr0713.azurecr.io`
+  - Password: `g4n******************dKw`
 ### Azure China
 
 - IoT Edge Connection String: `HostName=iothub-0713.azure-devices.cn;DeviceId=RPi4-01;SharedAccessKey=Lr1***************************HI4=`
 
+- Container Registry:
+  - Registry name: `cr0714`
+  - Login server: `cr0714.azurecr.cn`
+  - Password: `25M******************gwl`
+- 
 ## Step 1: Create a new IoT Edge Solution in VS Code
 
 
