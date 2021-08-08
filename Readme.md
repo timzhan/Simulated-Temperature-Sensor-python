@@ -4,4 +4,7 @@ On Azure Marketplace, there is a module called [`Simulated Temperature Sensor`](
 
 However, this app is developed in C#. Apparently some developers are not C# fans and are looking for a Python version. I created it here for their reference.
 
-**PLEASE BE NOTED**: this sample module and the source codes are created for **testing purpose** only.  
+**PLEASE BE NOTED**: this sample module and the source codes are created for **testing purpose** or **learnign purpsoe** only. Neither the coding style nor the use of connection_strings instead of certificates is recommended for production codes.
+
+<END>
+
