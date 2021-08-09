@@ -12,7 +12,20 @@
   - Azure IoT Tools
 
 ### Target device
-- Raspberry Pi 4B
+This sample targets to run on below 3 platforms:
+
+- ARM32v7, Raspberry Pi 4B, Raspian OS Buster
+  
+  <img src="images/RPi4B.png" width=40%>
+  
+- AMD64, Intel NUC/Hyper-V VM/Azure VM, Ubuntu 18.04
+
+  <img src="images/intel-nuc.png" width=50%>
+
+- ARM64v8, nVidia Jetson Nano, Ubuntu 18.04
+
+  <img src="images/jetson-nano.png" width=40%>
+
 
 ### Azure Global
 
@@ -22,6 +35,7 @@
   - Registry name: `cr0713`
   - Login server: `cr0713.azurecr.io`
   - Password: `g4n******************dKw`
+
 ### Azure China
 
 - IoT Edge Connection String: `HostName=iothub-0713.azure-devices.cn;DeviceId=RPi4-01;SharedAccessKey=Lr1***************************HI4=`
@@ -30,7 +44,8 @@
   - Registry name: `cr0714`
   - Login server: `cr0714.azurecr.cn`
   - Password: `25M******************gwl`
-- 
+
+
 ## Step 1: Create a new IoT Edge Solution in VS Code
 
 
